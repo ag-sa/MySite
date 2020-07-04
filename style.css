@@ -73,17 +73,17 @@ a:-webkit-any-link {
     background-color: #eceff1;
 }
 
-.portfolio-content {
+.content-head {
     text-align: center;
 }
 
-.portfolio-headline {
+.content-headline {
     font-size: 32px;
     padding-top: 90px;
     color: #000000;
 }
 
-.portfolio-headline::after {
+.content-headline::after {
     content: "";
     display: block;
     width: 70px;
@@ -92,8 +92,9 @@ a:-webkit-any-link {
     background-color: #EC715F;
 }
 
-.portfolio-text {
+.content-text {
     margin: 30px 0;
+    font-size: 16px;
 }
 
 .portfolio-image-box {
@@ -142,4 +143,45 @@ a:-webkit-any-link {
 
 .img6 {
     background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.feature-content {
+    text-align: center;
+}
+
+.feature-box {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 0 90px 0;
+}
+
+.strength {
+    width: 320px;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+}
+
+.strength:last-child {
+    margin-right: 0;
+}
+
+.strength p {
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+}
+.strength h2 {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.fa-large {
+    font-size: 60px;
 }
