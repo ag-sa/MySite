@@ -250,6 +250,7 @@ a:-webkit-any-link {
     padding-left: 130px;
     float: left;
 }
+
 .sns-title {
     font-size: 20px;
     margin-bottom: 5px;
@@ -259,8 +260,15 @@ a:-webkit-any-link {
     margin-right: 20px;
 }
 
-
-
 .fa-5x {
     font-size: 50px;
+}
+
+footer {
+    text-align: center;
+    line-height: 60px;
+    background-color: #ec715f;
+    font-size: 16px;
+    color: #fafafa;
+    height: 60px;
 }
