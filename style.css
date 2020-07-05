@@ -176,6 +176,7 @@ a:-webkit-any-link {
     font-size: 16px;
     color: #000000;
 }
+
 .strength h2 {
     font-size: 20px;
     color: #000000;
@@ -184,4 +185,47 @@ a:-webkit-any-link {
 
 .fa-large {
     font-size: 60px;
+}
+
+.profile {
+    background-color: #eceff1;
+}
+
+.profile-content {
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    display: block;
+}
+
+.left-content {
+    float: left;
+    width: 512px;
+    text-align: center;
+}
+
+.left-content img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+}
+
+.right-content {
+    float: left;
+    width: 512px;
+}
+
+.right-content-title {
+    font-size: 20px;
+    margin: 20px 0 5px;
+}
+
+.right-content-title:first-child {
+    margin-top: 0;
+}
+
+.right-content-text {
+    font-size: 16px;
+    font-size: 16px;
+    color: #000000;
 }
