@@ -70,6 +70,7 @@ a:-webkit-any-link {
 }
 
 .portfolio {
+    width: 100%;
     background-color: #eceff1;
 }
 
@@ -146,7 +147,7 @@ a:-webkit-any-link {
 }
 
 .feature {
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -155,8 +156,8 @@ a:-webkit-any-link {
 }
 
 .feature-box {
+    width: 980px;
     margin: 0 auto;
-    display: inline-block;
     padding: 0 0 90px 0;
 }
 
@@ -188,11 +189,11 @@ a:-webkit-any-link {
 }
 
 .profile {
+    width: 100%;
     background-color: #eceff1;
 }
 
 .profile-content {
-    width: 1024px;
     margin: 0 auto;
     padding-bottom: 90px;
     display: block;
@@ -205,8 +206,8 @@ a:-webkit-any-link {
 }
 
 .left-content img {
-    width: 256px;
-    height: 256px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -273,7 +274,7 @@ footer {
     height: 60px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     header {
         width: 100%;
         height: 50px;
@@ -353,6 +354,9 @@ footer {
 
     /* feature */
     .feature {
+        width: 100%;
+    }
+    .feature-box {
         width: 100%;
     }
     .strength {
